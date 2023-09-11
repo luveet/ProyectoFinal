@@ -19,32 +19,28 @@
 .nav ul {
   display: flex;
   list-style: none;
-  justify-content: right;
+  justify-content: space-between;
+  align-content: space-around;
   flex-wrap: wrap;
   min-height: 60px;
   align-items: baseline;
   border-bottom: #B08968 solid 3px;
-}
-.nav ul i {
-  margin-top: 30px;
+  margin: 5px;
 }
 .nav ul img {
   width: 100px;
   margin-right: 700px;
   margin-top: 15px;
 }
-.nav ul li {
-  padding: 10px;
-  margin-right: 4px;
-}
-.nav ul li a {
+.nav ul a {
   text-decoration: none;
   color: #B08968;
 }
-.nav ul li a:hover {
+.nav ul a:hover {
   background-color: #B08968;
   border-radius: 5px;
   color: white;
+  padding: 3px;
 }
 
 #carouselExample img {
@@ -333,6 +329,50 @@ h2 {
   text-align: justify;
   margin-left: 12px;
   padding-top: 25px;
+}
+
+.titulo-producto {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 100px;
+  border-bottom: #f8d8bd solid 2px;
+  border-top: #f8d8bd solid 2px;
+  font-family: Libre Basrkeville;
+}
+
+.productos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 400px);
+  margin-top: 200px;
+  justify-items: center;
+}
+
+.card-producto img {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 15px;
+}
+.card-producto div h5 {
+  margin-bottom: 5px;
+  font-family: Libre Basrkeville;
+  font-size: large;
+}
+.card-producto div p {
+  color: rgb(128, 128, 128);
+  margin-bottom: 5px;
+}
+.card-producto div a {
+  text-decoration: none;
+  color: #472910;
+  border: 2px solid #B08968;
+  padding: 2px;
+  margin-left: 100px;
+}
+.card-producto div a:hover {
+  background-color: #B08968;
+  color: #472910;
 }
 
 .talleres {
