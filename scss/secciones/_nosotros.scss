@@ -1,0 +1,79 @@
+section{
+    .quienessomos {
+        font-family: Libre Basrkeville;
+        display: flex;
+        align-items: center;
+        margin-bottom: 50px;
+        align-content: space-around;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: flex-start;
+        font-size: x-large;
+        padding: 15px;
+        color: #B08968;
+        text-decoration: underline;
+        font-size: xx-large;
+    }
+    .descripcion {
+        font-family: 'Quattrocento', serif;
+        font-size: larger;
+        display: flex;
+        text-align: justify;
+        background-color: #B08968;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        max-width: 800px;
+        margin: auto;
+        color: #FAEDCD;
+        border-radius: 10px;
+    }
+}
+
+h2{
+    padding: 5px;
+    background-color: #B08968;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    color: #FAEDCD;
+    margin-bottom: 150px;
+    font-size: x-large;
+ }
+
+.grilla-profes{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-template-rows: 300px 50px 100px;
+     padding: 10px;
+     margin-top: 100px;
+     margin-bottom: 300px;
+     margin-left: 95px;
+     img{
+         width: 300px;
+         margin: auto;
+         transition: all .2s;
+         &:hover{
+            transform: scale(1.1);
+        }
+     }
+     .carta-titulo{
+         font-family: Libre Basrkeville;
+         font-size: larger;
+         margin: auto;
+         margin-left: 10px;
+         margin-top: 20px;
+     }
+     .carta-texto{
+         font-family: 'Quattrocento';
+         font-size: large;
+         max-width: 300px;
+         text-align: justify;
+         margin-left: 12px;
+         padding-top: 25px;
+     }
+}
+
+

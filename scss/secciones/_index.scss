@@ -1,0 +1,277 @@
+@font-face {
+    font-family: Libre Basrkeville;
+    src: url(../recursos/fonts/LibreBaskerville-Bold.otf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300&family=Quattrocento:wght@400;700&display=swap');
+
+.nav{
+    font-family: Libre Basrkeville;
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+    background-color: rgb(255, 255, 255); 
+    max-width: 100vw;
+    ul {
+        display: flex;
+        list-style: none;
+        justify-content: right;
+        flex-wrap: wrap;
+        min-height: 60px;
+        align-items: baseline;
+        border-bottom: #B08968 solid 3px;
+        i {
+            margin-top: 30px;
+        }
+        img {
+            width: 100px;
+            margin-right: 700px;
+            margin-top: 15px;
+        }
+        li {
+            padding: 10px;
+            margin-right: 4px;
+            a {
+                text-decoration: none;
+                color: #B08968;
+                &:hover{
+                    background-color: #B08968;
+                    border-radius: 5px;
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+
+#carouselExample img {
+    height: 500px;
+    margin: auto;
+    max-width: 100vw;
+}
+
+.destacados{
+    div{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 400px);
+    }
+    img{
+        border: #B08968 solid 5px;
+        padding: 5px;
+        width: 250px;
+        height: 250px;
+        margin: auto;
+    }
+    .destacado1 {
+        margin-top: 80px;
+    }
+    .destacado2 {
+        margin-top: 80px;
+    }
+    .titulo {
+        display: flex;
+        align-items: flex-start;
+        font-family: Libre Basrkeville;
+        color: black;
+        background-color: #FAEDCD;
+        flex-wrap: wrap;
+        align-content: space-around;
+        justify-content: flex-start;
+        flex-direction: column;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        font-size: x-large;
+        margin-top: 100px;
+    }
+} 
+.suscripcion{
+    background-image: url(https://res.cloudinary.com/dbpcne3zt/image/upload/v1694423384/proyecto%20%20final%20desarrollo/fondo-quienes-somos_rsscms.png);
+    max-width: 100vw;
+    height: 300px;
+    border: #FAEDCD solid 5px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    p{
+        font-size: xx-large;
+        color: rgb(0, 0, 0);
+    }
+    button{
+        width: 200px;
+        padding: 5px;
+        color: #FAEDCD;
+        background-color: #B08968;
+        border: #B08968;
+    }
+    input{
+            width: 500px;
+            border: #B08968 solid 2px;
+            margin-bottom: 15px;
+        }
+    }
+
+
+
+@media (max-width: 500px){
+    .logo{
+        width: 50px;     
+    }
+    .nav ul{
+        display: block;
+        width: 100vw;
+    }
+    .nav ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        font-size: xx-small;
+        margin-left: 0px;
+    }
+    #carouselExample{
+       display: none;
+    }
+    .titulo{
+        font-size: small;
+        width: 100vw;
+    }
+    .destacados div img{
+        display: flex;
+        margin: auto;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .footer{
+        width: 100vw;
+    }
+    .footer .texto {
+        color: black;
+        font-family: 'Quattrocento', serif;
+        font-size: xx-small;
+        font-weight: bold;
+        padding-top: 30px;
+    }
+    .contactanos {
+        margin-top: 30px;
+        color: black;
+        font-size: small;
+        font-weight: bold;
+        text-decoration: underline;
+        font-family: 'Quattrocento', serif;
+    }
+    
+    .mailcontacto {
+        margin-top: 30px;
+        font-family: 'Quattrocento', serif;
+        font-size: small;
+    }
+    
+    .carrito {
+        margin: 0px;
+    }
+    .quienessomos {
+        font-size: medium;
+    }
+    
+    .descripcion {
+        font-size: small;
+    }
+    .grilla-profes{
+        display: block;
+        justify-content: center;
+   }
+   .grilla-profes img{
+    width: 50vw;
+    border-top: #B08968 5px solid;
+}
+
+.carta-titulo{
+    font-size: small;
+    justify-content: flex-start;
+}
+
+.carta-texto{
+    font-size: smaller;
+    max-width: 50vw;
+    margin-bottom: 50px;
+}
+
+.talleres{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: left;
+}
+.torno {
+   max-width: 100vw;
+   margin-left: 15vw;
+}
+
+.mano {
+    max-width: 100vw;
+    margin-left: 15vw;
+}
+
+
+.talleres .taller1 h1 {
+    font-size: medium;
+    margin-left: 0px;
+}
+
+.parrafotaller1 {
+    font-size: small;
+    margin-top: 10px;
+}
+
+.taller1 {
+    margin-top: 100px;
+    display: block;
+    
+}
+
+.talleres .taller2 h1 {
+   font-size: medium;
+   margin-left: 0px;
+}
+
+.parrafotaller2 {
+    font-size: small;
+    margin-top: 10px;
+}
+.taller2{
+    margin-top: 100px;
+    display: block;
+    
+}
+.formulario{
+    max-width: 100vw;
+    margin: auto;
+}
+.ubicacion{
+    max-width: 100vw;
+    margin: auto;
+}
+.datos{
+    max-width: 100vw;
+    margin-left: 20%;
+}
+.mapa{
+    max-width: 100vw;
+    margin: auto;
+}
+.nombrecompleto{
+    max-width: 100vw;
+}
+.mail{
+    max-width: 100vw;
+}
+.tema{
+    max-width: 100vw;
+}
+.mensaje{
+    max-width: 100vw;
+}
+}

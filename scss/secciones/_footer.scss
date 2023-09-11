@@ -1,0 +1,32 @@
+.footer {
+    text-align: center;
+    margin-top: 5%;
+    height: 500px;
+    border-top: #B08968 solid 3px;
+    .texto {
+        color: black;
+        font-family: 'Quattrocento', serif;
+        font-size: large;
+        font-weight: bold;
+        padding-top: 30px;
+    }
+    .redes i {
+        margin-top: 90px;
+        width: 30px;
+        height: 30px;
+    }
+    .contactanos {
+        margin-top: 30px;
+        color: black;
+        font-size: x-large;
+        font-weight: bold;
+        text-decoration: underline;
+        font-family: 'Quattrocento', serif;
+    }
+    .mailcontacto {
+        margin-top: 30px;
+        font-family: 'Quattrocento', serif;
+        font-size: larger;
+    }
+}
+

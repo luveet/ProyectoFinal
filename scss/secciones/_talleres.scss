@@ -1,0 +1,60 @@
+
+
+.talleres {
+    margin-left: 200px;
+    margin-top: 100px;
+    margin-right: 200px;
+    
+    .taller1 {
+        display: flex;
+        justify-content: left;
+        margin-bottom: 80px;
+        background-color: #FAEDCD;
+        padding-bottom: 30px;
+        padding-top: 30px;
+        padding-left: 30px;
+        .torno {
+            width: 300px;
+            height: 300px;
+        }
+        h1 {
+            font-family: Libre Basrkeville;
+            margin-left: 20px;
+            margin-top: 30px;
+        }
+        .parrafotaller1 {
+            font-family: 'Quattrocento', serif;
+            margin-right: 60px;
+            margin-top: 120px;
+            font-size: large;
+        }
+    }
+    .taller2 {
+        display: flex;
+        justify-content: left;
+        margin-bottom: 80px;
+        background-color: #FAEDCD;
+        padding-bottom: 30px;
+        padding-top: 30px;
+        padding-left: 30px;
+        .mano {
+            width: 300px;
+            height: 300px;
+        }
+        h1 {
+            font-family: Libre Basrkeville;
+            margin-left: 20px;
+            margin-top: 30px;
+        }
+        .parrafotaller2 {
+            font-family: 'Quattrocento', serif;
+            margin-right: 60px;
+            margin-top: 120px;
+            font-size: large;
+        }
+    }
+}
+
+
+
+
