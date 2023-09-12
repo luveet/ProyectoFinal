@@ -16,7 +16,7 @@
         display: flex;
         list-style: none;
         justify-content: space-between;
-        align-content: space-around;
+        align-content: space-between;
         flex-wrap: wrap;
         min-height: 60px;
         align-items: baseline;
@@ -33,12 +33,14 @@
                 &:hover{
                     background-color: #B08968;
                     border-radius: 5px;
-                    color: white;
+                    color: rgba(255, 255, 255, 0.976);
                     padding: 3px;
                 }
             }
     }
 }
+
+
 
 #carouselExample img {
     height: 500px;
@@ -112,20 +114,6 @@
 
 
 @media (max-width: 500px){
-    .logo{
-        width: 50px;     
-    }
-    .nav ul{
-        display: block;
-        width: 100vw;
-    }
-    .nav ul{
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        font-size: xx-small;
-        margin-left: 0px;
-    }
     #carouselExample{
        display: none;
     }
@@ -168,7 +156,7 @@
         margin: 0px;
     }
     .quienessomos {
-        font-size: medium;
+       font-size: small;
     }
     
     .descripcion {

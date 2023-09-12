@@ -17,6 +17,8 @@
 }
 
 .card-producto{
+    margin-bottom: 15px;
+    margin-top: 30px;
     img{
         width: 250px;
         height: 250px;
@@ -41,6 +43,40 @@
             &:hover{
                 background-color: #B08968;
                 color: #472910;
+            }
+        }
+    }
+}
+
+@media (max-width: 500px){
+    .titulo-producto{
+        max-width: 100vw;
+        font-size: large;
+    }
+    .card-producto{
+        display: grid;
+        grid-column: 1;
+        margin-left: 100px;
+        img{
+            width: 200px;
+            height: 200px;
+            margin: auto;
+        }
+        div{
+            h5{
+                font-family: Libre Basrkeville;
+                font-size: medium;
+            }
+            p{
+                color: rgb(128, 128, 128);
+                margin-bottom: 5px;
+            }
+            a{
+                text-decoration: none;
+                color:#472910 ;
+                border:  2px solid #B08968;
+                padding: 2px;
+                margin-left: 100px;
             }
         }
     }

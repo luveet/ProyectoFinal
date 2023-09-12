@@ -77,3 +77,33 @@ h2{
 }
 
 
+@media (max-width: 500px){
+    section{
+        .descripcion{
+            font-size: small;
+        }
+        .quienessomos{
+            font-size: medium;
+        }
+    }
+    h2{
+        max-width: 100vw;
+        font-size: medium;
+    }
+    .grilla-profes{
+        max-width: 100vw;
+        display: flex;
+        flex-direction: column;
+        img{
+            max-width: 200px;
+        }
+        .carta-titulo{
+            font-size: medium;
+        }
+        .carta-texto{
+            font-size: small;
+        }
+    }
+}
+
+
