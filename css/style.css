@@ -87,7 +87,8 @@
   background-image: url(https://res.cloudinary.com/dbpcne3zt/image/upload/v1694423384/proyecto%20%20final%20desarrollo/fondo-quienes-somos_rsscms.png);
   max-width: 100vw;
   height: 300px;
-  border: #FAEDCD solid 5px;
+  border-top: #B08968 solid 5px;
+  border-bottom: #B08968 solid 5px;
   margin: auto;
   display: flex;
   align-items: center;
@@ -97,6 +98,10 @@
 .suscripcion p {
   font-size: xx-large;
   color: rgb(0, 0, 0);
+  background-color: #FAEDCD;
+  color: #B08968;
+  padding: 5px;
+  border-radius: 5px;
 }
 .suscripcion button {
   width: 200px;
@@ -112,6 +117,11 @@
 }
 
 @media (max-width: 500px) {
+  .nav ul {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
   #carouselExample {
     display: none;
   }
@@ -309,14 +319,14 @@ h2 {
 }
 .card-producto div p {
   color: rgb(128, 128, 128);
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 .card-producto div a {
   text-decoration: none;
   color: #472910;
   border: 2px solid #B08968;
-  padding: 2px;
-  margin-left: 100px;
+  padding: 7px 90px;
+  font-size: larger;
 }
 .card-producto div a:hover {
   background-color: #B08968;
@@ -612,8 +622,7 @@ h2 {
 }
 .footer .redes i {
   margin-top: 90px;
-  width: 30px;
-  height: 30px;
+  width: 100px;
 }
 .footer .contactanos {
   margin-top: 30px;
