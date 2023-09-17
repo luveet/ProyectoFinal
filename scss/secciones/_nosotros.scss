@@ -1,16 +1,19 @@
-section{
+.nosotros{
+    background-image: url(https://res-console.cloudinary.com/dbpcne3zt/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/cHJveWVjdG8gIGZpbmFsIGRlc2Fycm9sbG8veXZhdTdqd2czcnJ2c2xubDh6dHM=/template_primary);
+    height: 500px;
     .quienessomos {
         font-family: Libre Basrkeville;
         display: flex;
         align-items: center;
-        margin-bottom: 50px;
+        margin-bottom: 80px;
+        margin-top: 20px;
         align-content: space-around;
         flex-wrap: wrap;
         flex-direction: column;
         justify-content: flex-start;
         font-size: x-large;
         padding: 15px;
-        color: #B08968;
+        color: #3b1b02;
         text-decoration: underline;
         font-size: xx-large;
     }
@@ -37,7 +40,6 @@ h2{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 100px;
     color: #FAEDCD;
     margin-bottom: 150px;
     font-size: x-large;

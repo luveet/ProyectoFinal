@@ -85,7 +85,7 @@
     }
 } 
 .suscripcion{
-    background-image: url(https://res.cloudinary.com/dbpcne3zt/image/upload/v1694423384/proyecto%20%20final%20desarrollo/fondo-quienes-somos_rsscms.png);
+    background-image: url(https://res-console.cloudinary.com/dbpcne3zt/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/cHJveWVjdG8gIGZpbmFsIGRlc2Fycm9sbG8vcHhmOWpwY3dkN2xhanZlajYwemw=/template_primary);
     max-width: 100vw;
     height: 300px;
     border-top: #B08968 solid 5px;
@@ -98,20 +98,19 @@
     p{
         font-size: xx-large;
         color: rgb(0, 0, 0);
-        background-color: #FAEDCD;
-        color: #B08968;
         padding: 5px;
         border-radius: 5px;
     }
     button{
         width: 200px;
         padding: 5px;
-        color: #FAEDCD;
+        color: #060400;
         background-color: #B08968;
         border: #B08968;
     }
     input{
-            width: 500px;
+            width: 600px;
+            height: 40px;
             border: #B08968 solid 2px;
             margin-bottom: 15px;
         }
