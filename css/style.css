@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300&family=Quattrocento:wght@400;700&display=swap");
 * {
   margin: 0;
@@ -8,35 +9,31 @@
   font-family: Libre Basrkeville;
   src: url(../recursos/fonts/LibreBaskerville-Bold.otf);
 }
-.nav {
+.logo-vivesimple {
+  width: 5%;
+}
+
+#navegacion {
   font-family: Libre Basrkeville;
   position: sticky;
   top: 0px;
   z-index: 1000;
-  background-color: rgb(255, 255, 255);
   max-width: 100vw;
 }
-.nav ul {
+#navegacion .seccion-menu ul {
   display: flex;
   list-style: none;
-  justify-content: space-between;
-  align-content: space-between;
+  justify-content: flex-end;
+  align-content: flex-end;
   flex-wrap: wrap;
   min-height: 60px;
-  align-items: baseline;
   border-bottom: #B08968 solid 3px;
-  margin: 5px;
 }
-.nav ul img {
-  width: 5%;
-  margin-right: 700px;
-  margin-top: 15px;
-}
-.nav ul a {
+#navegacion .seccion-menu a {
   text-decoration: none;
   color: #B08968;
 }
-.nav ul a:hover {
+#navegacion .seccion-menu a:hover {
   background-color: #B08968;
   border-radius: 5px;
   color: rgba(255, 255, 255, 0.976);
@@ -84,7 +81,7 @@
 }
 
 .suscripcion {
-  background-image: url(https://res-console.cloudinary.com/dbpcne3zt/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/cHJveWVjdG8gIGZpbmFsIGRlc2Fycm9sbG8vcHhmOWpwY3dkN2xhanZlajYwemw=/template_primary);
+  background-image: url(/recursos/Diseño_sin_título.jpg);
   max-width: 100vw;
   height: 300px;
   border-top: #B08968 solid 5px;
@@ -115,7 +112,7 @@
   margin-bottom: 15px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .nav ul {
     display: flex;
     justify-content: flex-start;
@@ -183,7 +180,7 @@
   }
 }
 .nosotros {
-  background-image: url(https://res-console.cloudinary.com/dbpcne3zt/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/cHJveWVjdG8gIGZpbmFsIGRlc2Fycm9sbG8veXZhdTdqd2czcnJ2c2xubDh6dHM=/template_primary);
+  background-image: url(/recursos/Fondo_quienes_somos.png);
   height: 500px;
 }
 .nosotros .quienessomos {
@@ -262,9 +259,10 @@ h2 {
   padding-top: 25px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   section .descripcion {
     font-size: small;
+    max-width: 100vw;
   }
   section .quienessomos {
     font-size: medium;
@@ -277,9 +275,11 @@ h2 {
     max-width: 100vw;
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
   .grilla-profes img {
     max-width: 200px;
+    margin-top: 15px;
   }
   .grilla-profes .carta-titulo {
     font-size: medium;
@@ -336,7 +336,7 @@ h2 {
   color: #472910;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .titulo-producto {
     max-width: 100vw;
     font-size: large;
@@ -344,12 +344,12 @@ h2 {
   .card-producto {
     display: grid;
     grid-column: 1;
-    margin-left: 100px;
+    margin-left: 50%;
   }
   .card-producto img {
     width: 200px;
     height: 200px;
-    margin: auto;
+    margin-top: 10px;
   }
   .card-producto div h5 {
     font-family: Libre Basrkeville;
@@ -383,7 +383,6 @@ h2 {
 }
 .talleres .taller1 .torno {
   width: 300px;
-  height: 300px;
 }
 .talleres .taller1 h1 {
   font-family: Libre Basrkeville;
@@ -407,7 +406,6 @@ h2 {
 }
 .talleres .taller2 .mano {
   width: 300px;
-  height: 300px;
 }
 .talleres .taller2 h1 {
   font-family: Libre Basrkeville;
@@ -421,7 +419,7 @@ h2 {
   font-size: large;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .talleres {
     margin: auto;
     max-width: 100vw;
@@ -432,8 +430,7 @@ h2 {
     margin-bottom: 50px;
   }
   .talleres .taller1 .torno {
-    width: 200px;
-    height: 200px;
+    width: 150px;
     margin: auto;
   }
   .talleres .taller1 h1 {
@@ -454,8 +451,7 @@ h2 {
     margin-bottom: 50px;
   }
   .talleres .taller2 .mano {
-    width: 200px;
-    height: 200px;
+    width: 150px;
     margin: auto;
   }
   .talleres .taller2 h1 {
@@ -560,7 +556,7 @@ h2 {
   padding-bottom: 15px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .datos h1 {
     display: flex;
     margin: auto;
